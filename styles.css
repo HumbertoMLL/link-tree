@@ -1,56 +1,36 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-.header-wrapper {
-  width: 380px;
+.wrapper {
+  max-width: 720px;
   margin: 0 auto;
-  padding: 18px 0;
   text-align: center;
 }
-
-h1 {
-  font-family: "Roboto";
-  font-size: 28px;
-  font-weight: bold;
-  margin: 8px 0;
+:root {
+  font-family: "Karla", sans-serif;
 }
-.header-content img {
-  width: 180px;
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 16px 0;
+}
+main img {
   border-radius: 50%;
 }
-p {
-  font-family: "Roboto";
-  font-size: 22px;
+.content-container > p {
+  /* Selector del primer hijo */
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+a p {
+  font-size: 24px;
 }
 
-.links {
-  margin: 0 auto;
-  width: 380px;
-}
-
-.links a {
+a {
   display: block;
-  text-align: center;
   text-decoration: none;
-  height: 48px;
-  margin: 16px 0;
-  padding: 20px 0 8px 0;
-  font-family: "Roboto", sans-serif;
-  font-size: 28px;
-  background-color: #06d6a0;
   color: white;
-  border-radius: 8px;
+  background-color: rgb(57, 224, 155);
+  padding: 16px 66px;
+  margin-bottom: 16px;
+  border: 2px solid rgb(57, 224, 155);
 }
-
 @media screen and (min-width: 980px) {
-  .links {
-    width: 900px;
-    height: 64px;
-    padding: 28px 0 8px 0;
-  }
-  .header-wrapper {
-    width: 980px;
-    margin: 0 auto;
-    padding: 16px 0;
-    border: 1px solid red;
-    text-align: center;
-  }
 }
