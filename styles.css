@@ -32,5 +32,8 @@ a {
   margin-bottom: 16px;
   border: 2px solid rgb(57, 224, 155);
 }
-@media screen and (min-width: 980px) {
+
+a:hover {
+  background-color: transparent;
+  color: rgb(57, 224, 155);
 }
